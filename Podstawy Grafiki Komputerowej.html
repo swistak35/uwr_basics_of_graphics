@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="Computer Graphics
+Grafika Komputerowa
+Śledzenie promieni
+Computer Graphics
+Rendering
+Ray Tracing
+Andrzej Lukaszewski
+Andrzej Łukaszewski">
+    <meta content="Realistyczna Grafika Komputerowa" name="description">
+    <link rel="StyleSheet" href="Podstawy%20Grafiki%20Komputerowej_pliki/std.css">
+	<title> Podstawy Grafiki Komputerowej </title>
+</head>
+
+<body>
+<!-- ===================================================================== -->
+<table border="0" cellpadding="10" cellspacing="0" width="100%">
+<tbody><tr>
+<td class="logobar" width="110px">
+<a href="http://www.ii.uni.wroc.pl/%7Eanl/" title="Home Page">
+   <img src="Podstawy%20Grafiki%20Komputerowej_pliki/cg1.gif"></a>
+</td><td class="main">
+
+<h1>Pracownia  Podstawy Grafiki Komputerowej</h1>
+
+<p> <b>Semestr zimowy 2013/2014:<br>
+       Pracownia: poniedziałek 12-14 (sala 7),  czwartek 12-14 (sala 7)
+    </b>
+</p><p>
+</p></td></tr>
+</tbody></table>
+<!-- ===================================================================== -->
+
+<hr>
+
+<!-- ===================================================================== -->
+<table border="0" cellpadding="10" cellspacing="0" width="100%">
+<tbody><tr>
+<td class="sidebar" width="110px">
+Poniżej:
+    <hr>
+Linki:
+    <p class="m1"> <span class="tr">►</span> 
+        <a href="http://www.ii.uni.wroc.pl/" title="Institute Home Page">Institut</a>
+    </p><p class="m1"> <span class="tr">►</span> 
+        <a href="http://graphics.csail.mit.edu/%7Efredo/Book/index.html" title="Fredo Computer Graphics Bookmarks">Fredo linki</a>
+    </p><p class="m1"> <span class="tr">►</span> 
+        <a href="http://www.ii.uni.wroc.pl/%7Eanl/cgfiles/" title="Local directory with various CG files">CG pliki</a>
+    </p><hr>
+    <p class="m1"> <span class="tr">►</span> 
+        <a href="http://www.opengl.org/sdk/docs/" title="OpenGL doc">OpenGL</a>
+    </p><p class="m1"> <span class="tr">►</span> 
+        <a href="http://www.khronos.org/opengl/" title="OpenGL Khronos">Kh.OpenGL</a>
+    </p><p class="m1"> <span class="tr">►</span> 
+        <a href="http://www.opengl-tutorial.org/" title="New OpenGL tutorials">Tutorials</a>
+    </p><hr>
+    <p class="m1"> <span class="tr">►</span> 
+       <a href="http://duriansoftware.com/joe/An-intro-to-modern-OpenGL.-Table-of-Contents.html" title="An intro to modern OpenGL">ModernGL</a>
+    </p><p class="m1"> <span class="tr">►</span>
+        <a href="http://nehe.gamedev.net/" title="NeHe: OpenGL Tutotials">NeHe</a>
+    </p><p class="m1"> <span class="tr">►</span>
+        <a href="http://www.songho.ca/opengl/" title="Song Ho Ahn: OpenGL Shorts">SongHo</a>
+    </p><p class="m1"> <span class="tr">►</span> 
+        <a href="http://www.opengl.org/documentation/specs/glut/" title="GLUT: OpenGL Utility Toolkit">GLUT</a>
+
+</p></td><td class="main">
+<!-- ===================================================================== -->
+<h3>
+</h3>
+
+<h3>Aktualności:</h3>
+
+
+
+<h3>Zaliczenie/Punktacja:</h3>
+<ul>
+<li>Aby zaliczyć pracownie należy do końca semestru otrzymać za zadania ponad
+połowę sumy wszystkich punktów. 
+</li><li>Koniec semestru (ostatnie zajęcia) jest ostatecznym terminem oddawania 
+zadań i otrzymania zaliczenia. 
+</li><li>Zadania oddawane po terminie są punktowane
+niżej stosownie do opóźnienia. &nbsp;
+Każdy tydzień opóźnienia to 20% punktów mniej.
+Po czterech tygodniach nie dostaje się żadnych punktów (czyli w terminie max:
+100%, po 1 tygodniu max: 80%, po 2 tygodniach max: 60%, po trzech max:40%). 
+</li><li>W ocenianiu zadania poza realizacją założeń, będzie brana pod uwagę 
+przenaszalność i czytelność kodu.  
+
+</li></ul>
+<b>Uwaga 1:</b> Próby pisania kodu w ostatniej chwili najczęściej źle się 
+kończą, w najlepszym razie oddaniem z opóźnieniem za mniej punktów. 
+<br>
+<b>Uwaga 2:</b> Pierwsze zadania są proste, a kolejne będą coraz bardziej 
+złożone i więcej punktowane. Tak więc na prostych zadaniach można 
+niepotrzebnie stracić punkty, których potem może zabraknąć, 
+jednak z samych prostych zadań nie uzbiera się dość punktów do zaliczenia.  
+
+<h3>Oddawanie zadań:</h3>
+Oddanie zadania polega na przedstawieniu programu w godzinach pracowni i
+przesłaniu źródeł programu z koniecznymi plikami z danymi oraz z plikiem
+wykonującym kompilacje lub plikiem makefile lub projektem (bez produktów
+ubocznych kompilacji i plików wykonywalnych).  Pliki należy spakować do formatu
+ *.ZIP albo *.TAR.GZ i przesłać  w załączniku e-maila na 
+adres anl@ii.uni.wroc.pl z tematem listu "PGK[Numer][Nazwisko]"  
+(np. Pgk1Kowalski.zip). &nbsp;
+Program powinien być napisany w języku C/C++ i powinien 
+dać się skompilować na komputerach w pracowni i nie zawierać 
+nieprzenaszalnych bibliotek i kodu.  
+<hr width="100%">
+
+
+<!-- ===================================================================== -->
+<h3> Zadanie 1:  Kompilacja przykładów z tutorialu nowego OpenGL<br>
+   (1 tydzień, terminy: pon:14.X, czw:10.X) <b>10 punktów</b>:</h3>
+Skompilować, uruchomić i oglądnąć źródła przykładowych programów z 
+<a href="http://www.opengl-tutorial.org/">
+tutorialu dla nowego OpenGL</a>. Celem zadania jest skonfigurowanie środowiska
+do pisania własnych programów i zapoznanie się z podstawami nowego OpenGL. 
+<p>
+Komputery z pracowni obsługują wersję OpenGL 3.3, dla starszych komputerów 
+lub tych z grafiką zintegrowaną driver może obsługiwać tylko starszą wersje 
+wtedy możemy ściągnąc wersje tutoriali dla OpenGL 2.1.
+</p><p>
+Kompilacja całości jest opisana pod odnośnikiem lub w pliku readme 
+(używa cmake i make).  
+Przykłady używają poza OpenGL dodatkowych bibliotek GLFW i GLM, 
+które są także umieszczone w katalogu tutoriali. 
+Biblioteki te są także zainstalowane w systemie, 
+więc do własnych celów należy skonfigurować sobie jakiś przykład
+we własnym katalogu, napisać makefile lub polecenie do kompilacji
+(tak aby można było pracować bez całego katalogu z tutorialami).
+  
+</p><p>
+Poza skonfigurowaniem środowiska do pisania własnych programów należy 
+zapoznać się z dwoma pierwszymi  tutorialami, 
+przeglądnąć ich kod, uruchomić, zastanowić się co dlaczego tak działa, 
+wprowadzić modyfikacje np. zmienić kolor lub współrzędne wierzchołków.
+Dla tego zadania nie wysyłamy kodu e-mailem.  
+</p><hr width="100%">
+
+<h3> Zadanie 2:  Mastermind 2D w OpenGL<br>
+   (2 tygodnie, terminy: pon:.28.X, czw:24.X) <b>15 punktów</b>:</h3>
+Napisać program rysujący płaską dwuwymiarową plansze i grający w Masterminda 
+(patrz <a href="http://pl.wikipedia.org/wiki/Mastermind_%28gra_planszowa%29">
+wiki</a>)  gdzie komputer 
+tylko losuje kod, a gracz musi zgadywać (tak więc nie trzeba 
+implementować strategii zgadywania, a wszystko sprowadza się 
+do obsługi klawiatury i odrysowywania w pętli planszy).
+<p>
+Rysujemy plansze 2D czyli widok z góry. Można bazować na 2 tutorialu, 
+trzeba tylko dodać kolory dla wierzchołków (w kodzie programu i w shaderach np.
+przykłady shaderów w dalszych tutorialach).  Na razie nie dodajemy żadnych
+macierzy przekształceń, podając współrzędne od razu w 
+"Normalized Device Coordinates" czyli z zakresu [-1,1].   
+Pionki można rysować jako różnokolorowe kule/kwadraty złożone z trójkątów 
+(np. GL_TRIANGLES lub GL_TRIANGLE_FAN) 
+a plansze/kratki rysujemy przy pomocy 
+linii np. (np. GL_LINES lub GL_LINE_STRIP).
+</p><p>
+Klawiszami wybieramy lewo-prawo miejsce (zaznaczając je np. można 
+liniami wokół narysować trójkąt lub krzyżyk), a następnie wybieramy kolor 
+klawiszami 1-6,
+klawisz Enter powoduje zakończenie układania kodu (jeśli wszystkie już
+są ustawione), odpowiedź komputera i przejście do następnej próby jeśli 
+jeszcze jest.  'Q', 'q' lub Esc powoduje wyjście z gry.
+</p><p>
+Gdy przegramy program pozostawia planszę w tle rysując
+uśmiechniętą twarz, a jak wygramy 
+to inna ekspresje twarzy.
+Wystarczy narysować twarz bardzo schematycznie z kilku linii lub GL_LINE_STRIP.
+
+</p><hr width="100%">
+
+<h3> Zadanie 3: Arkanoid <br> (Terminy: pon:18.XI, czw:14.XI) <b>20 punktów</b> (wersja beta: możliwe drobne modyfikacje)</h3> 
+
+Arkanoid
+(patrz <a href="http://en.wikipedia.org/wiki/Arkanoid">wiki</a>) to
+prosta gra polegająca na odbijaniu piłeczki i niedopuszczeniu aby
+opuściła pole gry. Celem zadania jest zaimplementowanie tej gry
+zgodnie z poniższymi uwagami, jako wzorzec można przyjąć obrazek ze
+strony wikipedii (można dokonać pewnych uproszczeń kształtów, nie
+trzeba wyświetlać ilości punktów, tekstu, liter, cyfr w oknie
+OpenGL).
+
+<ul>
+
+<li>Poszczególne obiekty: piłeczka, cegły, fragmenty brzegów tworzymy
+jako pojedyńcze niezmienne obiekty w buforach VBO (pozycje+kolor, bez
+tekstur), kształt powinien być troche bardziej skomplikowany niż 1
+prostokąt np. dwa jeden na drugim różnego koloru lub prostokąt ze ściętymi
+brzegami, tak aby cegły w widoku się nie zlewały.
+
+</li><li>Obiekty rysujemy kolejno przekazując do shadera GLSL wektor
+translacji (glUniform...) i wywołując glDrawArray. Shader zmienia
+współrzędne dodając wektor translacji (nie potrzebujemy macierzy).
+
+</li><li>W tle rysujemy z linii heksagonalną kratkę jak na przykładzie z wiki.
+
+</li><li>Animacja: należy zadbać aby szybkość piłeczki była niezależna od
+szybkości komputera
+
+</li><li>Odbicia są zgodne z zasadą kąt padania równa się kątowi odbicia,
+poza paletka, która może mieć albo kształt taki aby cała górna
+odbijająca krawędź nie była prostą, albo dodajemy do odbicia
+nieznaczne zaburzenie losowe.
+
+</li><li><i>Uproszczona wersja za 75% punktów:</i> bez wykrywania uderzeń w
+konkretne cegły i ich usuwania (w pełnej wersji po usunięciu kilu
+cegieł wykrycie kolizji z murem z dziurami jest troche bardziej
+złożone)
+
+</li></ul>
+<hr>
+
+<h3> Zadanie 4:  Symulacja idącego/biegnącego tłumu<br>
+   (Terminy:  pon:9.XII, czw:5.XII) <b>25 punktów</b> (po modyfikacjach)</h3>
+Celem zadania jest wyświetlenie 
+animacji grupy idących/biegnących ludzi 
+z możliwością przełączania widoków.  
+<p>
+<b>Animacja Postaci:</b>
+Części ciała rysujemy <b>schematycznie</b> z odcinków/prostopadłościanów/elipsoid.
+Celem programu jest stosowanie hierarchiczne przekształceń układów
+współrzędnych tak aby większość części ciała rysować przy pomocy jednego 
+bufora zawierającego np. elipsoidę. Przechodząc do kolejnych części np. 
+nogi należy zmieniać układ współrzędnych np. przez przesunięcie 
+i obrót mnożąc bieżącą macierz modelowania M przez macierz danego 
+przekształcenia. Do tego potrzebujemy osobnych 3 macierzy M,V,P 
+(modelowania, widoku, rzutowania). Do shadera możemy oczywiście przekazywać 
+jeden iloczyn tych trzech macierzy. Poprzednią macierz M warto pamiętać 
+(np. aby po narysowaniu jednej nogi wrócić do tułowia i przejść do 
+drugiej nogi) dlatego warto zrobić sobie prosty stos macierzy
+(w starym OpenGL mieliśmy funkcje PushMatrix/PopMatrix). Ważne aby 
+przemyśleć sobie jakie mamy układy współrzędnych.
+</p><p>
+Tak więc rysując ręke rysujemy ramię 
+(najprostsza wersja linią) od punktu (0,0)  do  (długość_ramienia,0)
+przesuwamy 
+układ współrzędnych do łokcia wykonujemy obrót taki jak zgięcie łokcia 
+i rysujemy przedramię, a później podobnie dłoń. Aby narysować całego człowieka
+przed rysowaniem ręki odpowiednio przesuwamy układ współrzędnych i dokonujemy
+obrotu odpowiedniego do położenia ręki.
+Pamiętamy dla człowieka jego pozycje i pewną ilość kątów, które
+mogą być obliczane z klatki na klatkę proceduralnie zakładająć, 
+że kąty zmieniają się w pewnym zakresie i używając funcji okresowych sin/cos.
+Możemy też kąty dla poszczególnych faz ruchu pamiętać w tablicy i dla animacji 
+pobierać je i pomiędzy interpolować liniowo. Warto eksperymenotwać i stworzyć 
+kilka tablic opisujących różne sposoby biegu/chodu lub proceduralnie zmieniać 
+parametry. 
+</p><p>
+<b>Animacja Tłumu:</b>
+Symulacja tłumu polega na renderowaniu grupy ludzi animowanych jak wyżej, 
+dla każdego pamiętamy pozycje, kierunek, faze ruchu,... Poszczególne osoby 
+mogą się różnić szybkościa lub innymi parametrami ruchu, można eksperymentować 
+z dziwnymi rodzajami chodu lub biegu.  Warunki początkowe mogą być losowe 
+(tu dobrze dodać proste kolizje) lub start biegu, 
+można też dodać jakieś źródło ludzi, czyli miejsce gdzie pojawiają się
+na scenie w losowych odstępach czasu.
+</p><p>
+<b>Widoki:</b> Okno programu powinien wypełniać jeden z trzech
+przełączalnych (klawisz v) widoków: widok z punktu widzenia wyróżnionej idącej/biegnącej osoby
+(tu wysokość może się zmieniać: zależy od animacji), widok 
+podązający za nią: kilka metrów za i powyżej (na stałej wysokości),
+widok perspektywiczny z góry na całą scenę (do ustalenia ale stały).
+</p><p>
+<b>PS:</b> Inspiracją mogą być animacje ze stron:
+<a href="http://animation.about.com/od/flashanimationtutorials/ss/flash29walkcycl_2.htm">
+Basic Walk Cycle</a>,
+<a href="http://netanimations.net/walking_people.htm#.UHf9C-IZXWg">
+netanimations.net</a>. Przykładowo poniższe, chodź w tym zadaniu celem nie 
+jest zadbanie o aż taką szczegółowość i jakość biegu. 
+</p><p>
+<!--
+<IMG src="http://netanimations.net/male-runner.gif">
+<IMG src="http://netanimations.net/skeleton-gif.gif">
+-->
+
+</p><hr width="100%">
+
+
+
+<h3> Zadanie 5:  <b>Teren</b> <br>
+   (Terminy:  pon: 7.I, czw: 9.I) <b>30 punktów </b>:</h3>
+
+
+Celem zadania jest jak najdokładniejsze i najszybsze wyświetlenie 
+rzeczywistego terenu na podstawie dostępnych map wysokości DTED 
+(digital terrain elevation data). Program powinien wypisywać ilość 
+renderowanych trójkątów i ilość klatek na sekunde. 
+Program ma umożliwiać rysowanie mapy jak i latanie nad 
+terenem 3D zdefiniowanym na powierzchni kuli ziemskiej. Np. tak jak
+poniżej gdzie widać dolinę Odry, na lewo Sudety i Kotlina Kłodzka, 
+na prawo Tatry i dziura koło Bełchatowa:
+<p align="center">
+<img src="Podstawy%20Grafiki%20Komputerowej_pliki/srtm1.jpg">
+</p><p>
+
+<b>WCZYTYWANIE DANYCH DTED:</b> </p><p>
+Rzeźba terenu ma być czytana z danych SRTM pochodzących z misji 
+promu kosmicznego Endeavour z 2000 roku. Dane te zawierają
+wysokości powierzchni ziemi co kilkadziesiąt metrów. Program ma
+wczytywać dane w postaci binarnych plików <b>hgt</b> bez nagłówka 
+(1201x1201 liczb całkowitych 2 bajtowych) dla każdego stopnia 
+kwadratowego (inne wersje to np. pliki geotiff 6000x6000 dla 
+regionów 5x5 stopni: 
+<a href="http://srtm.csi.cgiar.org/">CGIAR-CSI SRTM 90m</a>). 
+Wysokość jest podana w metrach 
+z zakresu [-500,9000] inne wartości oznaczają brak danych.
+</p><p>
+Format plików <b>hgt</b> jest opisany 
+<a href="http://netgis.geo.uw.edu.pl/srtm/organizacja.shtml">TU</a>
+a przykładowe dane (reszta w katalogach jak wskazują linki):
+</p><ul>
+<li><a href="http://netgis.geo.uw.edu.pl/srtm/Poland/n50e016.hgt">
+    Kotlina Kłodzka, Ślęża</a></li>
+<li><a href="http://netgis.geo.uw.edu.pl/srtm/Poland/n50e015.hgt">
+    Karkonosze, Jelenia Góra</a></li>
+<li><a href="http://netgis.geo.uw.edu.pl/srtm/Europe/N45E006.hgt.zip">
+    Alpy, Mont Blanc</a></li>
+<li><a href="http://netgis.geo.uw.edu.pl/srtm/Europe/N45E007.hgt.zip">
+    Alpy, Matterhorn</a></li>
+</ul>
+<p>   
+Program ma wczytywać wszystkie takie pliki hgt podane jako argumenty 
+wywołania programu i na podstawie nazwy pliku określać położenie
+danych (stopnie geograficzne, rozpoznając w nazwie poprawnie duże i 
+małe litery n,N,e,E,s,S,w,W).  Argumenty zaczynające się od znaku
+minus oznaczają inne opcje programu, w ten sposób można sobie
+umożliwić wczytywanie danych np. dla zakresów szerokości i długości
+geograficznych.
+</p><p>
+
+<b>WYŚWIETLANIE MAPY:</b> </p><p>
+Program powinien po starcie wyświetlić mapę zawierającą prostokąt z 
+wszystkimi wczytanymi danymi przy pomocy rzutu równoległego płaskiej 
+powierzchni z odpowiednio dobranymu proporcjami x-y dla środka 
+wyświetlanego obszaru <b>(1x1 stopień ma rozmiary x-owe zależne od 
+y-szerokości geograficznej: ~ cos(y)  
+tzn. można zastosować najprostsze rozwiązanie czyli ta sama proporcja 
+dla wszystkich kafelków policzona dla środka widoku lub 
+środka obszaru ładowanych kafelków, 
+można też zastosować odwzorowanie Mercatora lub jego uproszczenie)</b>. 
+Umożliwiamy sterowanie widokiem przy pomocy klawiatury/myszy: 
+przesuwanie się i zoom-owanie. 
+
+Kolory wierzchołków dobieramy według wysokości jak na
+mapie fizycznej np.
+    </p><pre>       if      (ht &lt; 0  )   color = vec3(0.,       0.,        1.); //blue
+       else if (ht &lt; 500)   color = vec3(0.,       ht/500,    0.); //-&gt;green
+       else if (ht &lt; 1000)  color = vec3(ht/500-1, 1.,        0.); //-&gt;yellow
+       else if (ht &lt; 1500)  color = vec3(1.,       2.-ht/500, 0.); //-&gt;red
+       else                 color = vec3(1.,1.,1.);                //white
+    </pre>
+<p>
+Warto przemyśleć jakie dane wysyłamy do vertex shadera. 
+Można np. przyjąć że dane wierzchołka to 3 liczby short: indeksy x,y oraz
+wysokość. Vertex shader powinien wtedy dla każdego kawałka na podstawie 
+przekazanych zmiennych uniform (z informacją który to kwadrat:
+stopnie, itd.) obliczać współrzędne wierzchołka i jego kolor jak wyżej. 
+</p><p>
+Renderowanie siatki warto zrobić w trybie indeksowanym (glDrawElements
+zamiast glDrawArrays) pamiętając o użyciu VBO.  Należy mieć kilka tablic
+indeksów (wspólne dla wszystkich kawałków)
+umożliwiających renderowanie w różnych rozdzielczościach:
+pełnej, co drugi element, co czwarty,....   czyli prosty <b>LOD</b> 
+(Level Of Detail), którego zmianę umożliwiamy użytkownikowi (np klawisze
+1,2,...,0-auto), tryb automatyczny gdzie LOD dobierany jest do
+<b>FPS</b> (ilości wyświetlanych klatek na sekunde) tak aby było ich 
+więcej niż 10. Ilość FPS wyświetlamy na bieżąco (może być na terminalu
+tekstowym). Warto przemyśleć ilość używanej pamięci tak aby umożliwić
+jak najszybsze wyświetlanie jak najdokładniejszego terenu.
+</p><p>
+
+
+</p><p>
+<b>WIDOK 3D ZIEMA JEST KULĄ: </b></p><p>
+Widok z perspektywy obserwatora poruszającego się nad powierzchnią.
+Zakładamy że ziemia jest sferą o wiadomym promieniu (wiki) więc trzeba 
+odpowiednio wyliczać prawdziwe współrzędne xyz (napisać inny verex
+shader, który będzie obliczał współrzędne w globalnym
+układzie współrzędnych ze środkiem w środku Ziemi) i zmodyfikować 
+obsługe klawiatury/myszy tak aby umożliwiała latanie, wygodne zmiany 
+położenia, kierunku patrzenia. 
+
+Dla obszarów ziemi dla których nie ładujemy danych wyświetlamy kształt sfery 
+schematycznie np. przy pomocy linii ograniczających obszary 1x1 czy 5x5 stopni.
+   
+
+</p><hr>
+
+<h3> Zadanie 6:  
+    <b>Wczytywanie modeli obj(Wavefront) + oświetlenie i tekstury</b>
+<br>
+   (Terminy:  pon: 4.II, czw: 30.I) 20 punktów </h3>
+
+Tematyka programu jest dowolna tzn. mogą to być rybki pływające w
+akwarium albo stół bilardowy z bilami i kilkoma innymi elementami. 
+Może to być animacja, nieskomplikowana gra lub po prostu wygodna przeglądarka
+modeli w formacie OBJ. Można też rozszerzyć odpowiednio poprzednie zadanie 
+z terenem dodając latające lub stojące na ziemi obiekty.<p> 
+Wymagane jest użycie/zaimplementowanie następujących elementów:
+  </p><ol>
+    <li>wczytywanie plików z modelami w formacie Wavefront OBJ: 
+        tutorial 7 (gotowa funkcja) lub biblioteka 
+        <a href="http://assimp.sourceforge.net/">assimp</a>.
+    </li><li>zaimplementowanie w GLSL modelu oświetlenia Phonga (diffuse+specular)
+        z dwoma światłami
+    </li><li>wyświetlanie obiektów z teksturami (obrazy) wczytanymi z modelu OBJ
+    </li><li>zaimplementowanie w GLSL <b>dwóch tesktur proceduralnych</b> dla 
+        (nierówności lub brudu) i (drewna lub marmuru lub muru cegieł)  
+        przy pomocy 
+        <a href="http://mrl.nyu.edu/%7Eperlin/noise/">szumu Perlina</a>: 
+        dokładniejszy 
+        <a href="https://github.com/ashima/webgl-noise/wiki">
+        opis i implementacja w GLSL</a>  
+  </li></ol>
+Program powinien umożliwiać zmianę widoku np. obracanie sceny lub obiektu
+tak aby oświetlenie (położenie świateł) pozostało związane ze sceną, 
+a nie obserwatorem oraz umożliwiać włączanie i wyłączanie poszczególnych 
+efektów: 
+  <ol>
+     <li> oświetlenia
+     </li><li> tekstur proceduralnych 
+     </li><li> wyświetlenie tekstur modelu lub tylko jego koloru
+  </li></ol>
+
+Tekstury proceduralne mogą być przypisywane do materiału z OBJ po jego
+nazwie. Tak więc powinna istnieć możliwość wyświetlenia sceny w której
+mamy różne materiały używające róznych shaderów GLSL.
+Wraz z programem należy dostarczyć użyte modele OBJ.
+<p>
+<b>Skąd brać modele Wavefront OBJ</b><br>
+   Duży wybór obiektów znajduje sie w 
+   <a href="http://sketchup.google.com/3dwarehouse/">3D warehouse</a> 
+   google'a w formacie SketchPad lub Collada. Z formatu Collada można 
+   przekonwertować do obj przy pomocy programu do modelowania 
+   <a href="http://www.blender.org/">blender</a> (import-export).
+   Można skorzystać z kilku przygotowanych w ten sposób obiektów 
+   z katalogu <a href="http://ii.uni.wroc.pl/%7Eanl/dyd/PGK/obj">obj/</a>.
+   Są także oczywiście inne serwery do wygooglania z modelami.
+</p><hr>
+
+<h3>Punktacja:</h3>
+Brak punktów za zadanie może być spowodowany nie wysłaniem źródeł zgodnie z
+powyżej opisanymi zasadami (w takim przypadku proszę dosłać). 
+Punkty za zadania 1-4 powinny być uaktualnione na koniec roku, 
+jeśli są jakieś braki prosze dać znać. 
+
+
+</td></tr>
+</tbody></table>
+<!-- ===================================================================== -->
+
+<hr width="100%">
+
+
+<div class="sign">Andrzej Łukaszewski
+    (<a href="mailto:anl@ii.uni.wroc.pl">anl@ii.uni.wroc.pl</a>)
+</div>
+
+
+
+</body></html>

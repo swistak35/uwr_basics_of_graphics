@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++0x  --verbose    CMakeFiles/Tutorial02.dir/tutorial02.cpp.o CMakeFiles/Tutorial02.dir/shader.cpp.o  -o Tutorial02  -L/home/swistak35/Projekty/uwr_courses/basics_of_graphics/tutorial02/lib -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lglfw -lGLEW -Wl,-rpath,/home/swistak35/Projekty/uwr_courses/basics_of_graphics/tutorial02/lib 

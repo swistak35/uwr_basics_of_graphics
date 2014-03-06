@@ -1,0 +1,1390 @@
+desc: (none)
+cmd: ../zadanie5mapa-build/zadanie5mapa
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=236066667
+mem_heap_B=46198435
+mem_heap_extra_B=142445
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=658478620
+mem_heap_B=83947099
+mem_heap_extra_B=150493
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=1080160555
+mem_heap_B=96530011
+mem_heap_extra_B=154533
+mem_stacks_B=0
+heap_tree=detailed
+n10: 96530011 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 25165824 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 25165824 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 25165824 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 25165824 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n3: 25165824 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 16777216 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 16777216 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 16777216 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 16777216 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 8388608 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 8388608 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 8388608 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 8388608 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 2 places, all below massif's threshold (01.00%)
+ n1: 25165824 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 25165824 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 25165824 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 25165824 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 25165824 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 25165824 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 25165824 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 25165824 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 25165824 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n3: 11608064 0xD100D2F: ??? (in /usr/lib/libdrm_intel.so.1.0.0)
+  n1: 8388608 0xCC654C9: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 8388608 0xCA91776: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 8388608 0xCAC6B3B: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 8388608 0xCAC6E7F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 8388608 0xCC6FFEC: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 8388608 0xCAB51B5: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+        n1: 8388608 0xCAB65FE: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+         n1: 8388608 0xCB7E8D3: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+          n1: 8388608 0xCB82F14: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+           n1: 8388608 0xCA3B511: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+            n1: 8388608 0x50D2713: ??? (in /usr/lib/primus/libGL.so.1)
+             n1: 8388608 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+              n0: 8388608 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n1: 3145728 0xCC7152C: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 3145728 0xCC71AFA: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 3145728 0xCAB2CE1: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 3145728 0xCAB697A: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 3145728 0x50D1DC0: ??? (in /usr/lib/primus/libGL.so.1)
+       n1: 3145728 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+        n0: 3145728 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n0: 73728 in 2 places, all below massif's threshold (01.00%)
+ n3: 8029925 0x8C969E7: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n2: 2800199 0x0: ???
+   n1: 2800071 0x11F8E646: ???
+    n1: 2800071 0x2AB97E: ???
+     n1: 2800071 0xA5E8F9F: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+      n1: 2800071 0xF90FFFE: ???
+       n1: 2800071 0x11F8E646: ???
+        n1: 2800071 0x11F8E55E: ???
+         n1: 2800071 0xF90FFFE: ???
+          n1: 2800071 0x2AB97E: ???
+           n0: 2800071 0xA324DEE: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+   n0: 128 in 1 place, below massif's threshold (01.00%)
+  n1: 1640450 0x2: ???
+   n0: 1640450 in 8 places, all below massif's threshold (01.00%)
+  n0: 711404 in 121 places, all below massif's threshold (01.00%)
+ n1: 3402896 0x8C96DDA: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n0: 2197168 in 157 places, all below massif's threshold (01.00%)
+ n1: 2674656 0xCA6C2D4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 2674656 0xCB24B26: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 2674656 0xCB77146: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 2674656 0xCC84827: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 2674656 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 2674656 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 2674656 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 2674656 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+         n1: 2674656 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+          n1: 2674656 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+           n1: 2674656 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+            n0: 2674656 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n0: 2260109 in 317 places, all below massif's threshold (01.00%)
+ n2: 1461610 0xCA6C29F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 1356992 0xCAD8F7E: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (01.00%)
+  n0: 104618 in 5 places, all below massif's threshold (01.00%)
+ n2: 1278207 0xCC2A150: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 1058695 0xCC2A1BC: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n0: 1058695 in 53 places, all below massif's threshold (01.00%)
+  n0: 219512 in 179 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=4
+#-----------
+time=1427462557
+mem_heap_B=121695835
+mem_heap_extra_B=154533
+mem_stacks_B=0
+heap_tree=detailed
+n10: 121695835 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 50331648 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 50331648 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 50331648 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 50331648 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n3: 50331648 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 33554432 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 33554432 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 33554432 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 33554432 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 16777216 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 16777216 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 16777216 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 16777216 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 2 places, all below massif's threshold (01.00%)
+ n1: 25165824 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 25165824 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 25165824 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 25165824 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 25165824 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 25165824 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 25165824 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 25165824 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 25165824 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n3: 11608064 0xD100D2F: ??? (in /usr/lib/libdrm_intel.so.1.0.0)
+  n1: 8388608 0xCC654C9: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 8388608 0xCA91776: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 8388608 0xCAC6B3B: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 8388608 0xCAC6E7F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 8388608 0xCC6FFEC: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 8388608 0xCAB51B5: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+        n1: 8388608 0xCAB65FE: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+         n1: 8388608 0xCB7E8D3: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+          n1: 8388608 0xCB82F14: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+           n1: 8388608 0xCA3B511: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+            n1: 8388608 0x50D2713: ??? (in /usr/lib/primus/libGL.so.1)
+             n1: 8388608 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+              n0: 8388608 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n1: 3145728 0xCC7152C: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 3145728 0xCC71AFA: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 3145728 0xCAB2CE1: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 3145728 0xCAB697A: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 3145728 0x50D1DC0: ??? (in /usr/lib/primus/libGL.so.1)
+       n1: 3145728 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+        n0: 3145728 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n0: 73728 in 2 places, all below massif's threshold (01.00%)
+ n3: 8029925 0x8C969E7: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n2: 2800199 0x0: ???
+   n1: 2800071 0x11F8E646: ???
+    n1: 2800071 0x2AB97E: ???
+     n1: 2800071 0xA5E8F9F: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+      n1: 2800071 0xF90FFFE: ???
+       n1: 2800071 0x11F8E646: ???
+        n1: 2800071 0x11F8E55E: ???
+         n1: 2800071 0xF90FFFE: ???
+          n1: 2800071 0x2AB97E: ???
+           n0: 2800071 0xA324DEE: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+   n0: 128 in 1 place, below massif's threshold (01.00%)
+  n1: 1640450 0x2: ???
+   n0: 1640450 in 8 places, all below massif's threshold (01.00%)
+  n0: 711404 in 121 places, all below massif's threshold (01.00%)
+ n1: 3402896 0x8C96DDA: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n0: 2197168 in 157 places, all below massif's threshold (01.00%)
+ n1: 2674656 0xCA6C2D4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 2674656 0xCB24B26: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 2674656 0xCB77146: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 2674656 0xCC84827: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 2674656 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 2674656 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 2674656 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 2674656 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+         n1: 2674656 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+          n1: 2674656 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+           n1: 2674656 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+            n0: 2674656 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n0: 2260109 in 317 places, all below massif's threshold (01.00%)
+ n2: 1461610 0xCA6C29F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 1356992 0xCAD8F7E: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n0: 1356992 in 14 places, all below massif's threshold (01.00%)
+  n0: 104618 in 5 places, all below massif's threshold (01.00%)
+ n1: 1278207 0xCC2A150: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n0: 1278207 in 180 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=5
+#-----------
+time=2116035841
+mem_heap_B=172027483
+mem_heap_extra_B=154533
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2632819723
+mem_heap_B=160484955
+mem_heap_extra_B=158573
+mem_stacks_B=0
+heap_tree=detailed
+n8: 160484955 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89128960 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 89128960 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 89128960 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 89128960 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 89128960 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 89128960 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 89128960 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 89128960 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 89128960 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 25165824 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 25165824 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 25165824 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 25165824 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 25165824 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 25165824 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 25165824 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 25165824 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 25165824 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n3: 11608064 0xD100D2F: ??? (in /usr/lib/libdrm_intel.so.1.0.0)
+  n1: 8388608 0xCC654C9: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 8388608 0xCA91776: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 8388608 0xCAC6B3B: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 8388608 0xCAC6E7F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 8388608 0xCC6FFEC: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 8388608 0xCAB51B5: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+        n1: 8388608 0xCAB65FE: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+         n1: 8388608 0xCB7E8D3: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+          n1: 8388608 0xCB82F14: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+           n1: 8388608 0xCA3B511: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+            n1: 8388608 0x50D2713: ??? (in /usr/lib/primus/libGL.so.1)
+             n1: 8388608 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+              n0: 8388608 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n1: 3145728 0xCC7152C: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 3145728 0xCC71AFA: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 3145728 0xCAB2CE1: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 3145728 0xCAB697A: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 3145728 0x50D1DC0: ??? (in /usr/lib/primus/libGL.so.1)
+       n1: 3145728 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+        n0: 3145728 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n0: 73728 in 2 places, all below massif's threshold (01.00%)
+ n3: 8029925 0x8C969E7: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n2: 2800199 0x0: ???
+   n1: 2800071 0x11F8E646: ???
+    n1: 2800071 0x2AB97E: ???
+     n1: 2800071 0xA5E8F9F: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+      n1: 2800071 0xF90FFFE: ???
+       n1: 2800071 0x11F8E646: ???
+        n1: 2800071 0x11F8E55E: ???
+         n1: 2800071 0xF90FFFE: ???
+          n1: 2800071 0x2AB97E: ???
+           n0: 2800071 0xA324DEE: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+   n0: 128 in 1 place, below massif's threshold (01.00%)
+  n1: 1640450 0x2: ???
+   n0: 1640450 in 8 places, all below massif's threshold (01.00%)
+  n0: 711404 in 121 places, all below massif's threshold (01.00%)
+ n0: 4991734 in 319 places, all below massif's threshold (01.00%)
+ n1: 3402896 0x8C96DDA: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n0: 2197168 in 157 places, all below massif's threshold (01.00%)
+ n1: 2674656 0xCA6C2D4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 2674656 0xCB24B26: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 2674656 0xCB77146: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 2674656 0xCC84827: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 2674656 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 2674656 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 2674656 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 2674656 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+         n1: 2674656 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+          n1: 2674656 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+           n1: 2674656 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+            n0: 2674656 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+#-----------
+snapshot=7
+#-----------
+time=3031296789
+mem_heap_B=210824803
+mem_heap_extra_B=162637
+mem_stacks_B=0
+heap_tree=detailed
+n8: 210824803 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 89128960 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 89128960 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 89128960 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 89128960 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 89128960 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 89128960 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 89128960 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 89128960 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 89128960 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 75497472 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 75497472 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 75497472 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 75497472 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 75497472 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 75497472 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 75497472 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 75497472 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 75497472 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n3: 11608064 0xD100D2F: ??? (in /usr/lib/libdrm_intel.so.1.0.0)
+  n1: 8388608 0xCC654C9: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 8388608 0xCA91776: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 8388608 0xCAC6B3B: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 8388608 0xCAC6E7F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 8388608 0xCC6FFEC: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 8388608 0xCAB51B5: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+        n1: 8388608 0xCAB65FE: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+         n1: 8388608 0xCB7E8D3: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+          n1: 8388608 0xCB82F14: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+           n1: 8388608 0xCA3B511: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+            n1: 8388608 0x50D2713: ??? (in /usr/lib/primus/libGL.so.1)
+             n1: 8388608 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+              n0: 8388608 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n1: 3145728 0xCC7152C: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 3145728 0xCC71AFA: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 3145728 0xCAB2CE1: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 3145728 0xCAB697A: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 3145728 0x50D1DC0: ??? (in /usr/lib/primus/libGL.so.1)
+       n1: 3145728 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+        n0: 3145728 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n0: 73728 in 2 places, all below massif's threshold (01.00%)
+ n2: 8029925 0x8C969E7: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n2: 2800199 0x0: ???
+   n1: 2800071 0x11F8E646: ???
+    n1: 2800071 0x2AB97E: ???
+     n1: 2800071 0xA5E8F9F: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+      n1: 2800071 0xF90FFFE: ???
+       n1: 2800071 0x11F8E646: ???
+        n1: 2800071 0x11F8E55E: ???
+         n1: 2800071 0xF90FFFE: ???
+          n1: 2800071 0x2AB97E: ???
+           n0: 2800071 0xA324DEE: ??? (in /usr/lib/libnvidia-glcore.so.331.20)
+   n0: 128 in 1 place, below massif's threshold (01.00%)
+  n0: 2351854 in 122 places, all below massif's threshold (01.00%)
+ n0: 4999934 in 320 places, all below massif's threshold (01.00%)
+ n1: 3402896 0x8C96DDA: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n0: 2197168 in 157 places, all below massif's threshold (01.00%)
+ n1: 2674656 0xCA6C2D4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 2674656 0xCB24B26: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 2674656 0xCB77146: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 2674656 0xCC84827: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 2674656 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 2674656 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 2674656 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 2674656 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+         n1: 2674656 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+          n1: 2674656 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+           n1: 2674656 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+            n0: 2674656 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+#-----------
+snapshot=8
+#-----------
+time=4511319698
+mem_heap_B=319876707
+mem_heap_extra_B=162637
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=5075319466
+mem_heap_B=274779747
+mem_heap_extra_B=158589
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=5598144053
+mem_heap_B=375451243
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=detailed
+n6: 375451243 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 178257920 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 178257920 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 178257920 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 178257920 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 178257920 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 178257920 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 178257920 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 178257920 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 178257920 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 150994944 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 150994944 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 150994944 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 150994944 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 150994944 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 150994944 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 150994944 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 150994944 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 150994944 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n2: 11608064 0xD100D2F: ??? (in /usr/lib/libdrm_intel.so.1.0.0)
+  n1: 8388608 0xCC654C9: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 8388608 0xCA91776: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 8388608 0xCAC6B3B: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 8388608 0xCAC6E7F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 8388608 0xCC6FFEC: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 8388608 0xCAB51B5: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+        n1: 8388608 0xCAB65FE: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+         n1: 8388608 0xCB7E8D3: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+          n1: 8388608 0xCB82F14: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+           n1: 8388608 0xCA3B511: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+            n1: 8388608 0x50D2713: ??? (in /usr/lib/primus/libGL.so.1)
+             n1: 8388608 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+              n0: 8388608 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n0: 3219456 in 3 places, all below massif's threshold (01.00%)
+ n0: 11077494 in 322 places, all below massif's threshold (01.00%)
+ n1: 8029925 0x8C969E7: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n0: 5152053 in 123 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=11
+#-----------
+time=7506310372
+mem_heap_B=325111403
+mem_heap_extra_B=158581
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=9297746332
+mem_heap_B=593555067
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=9800284429
+mem_heap_B=526446203
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=9960296666
+mem_heap_B=503369339
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=12382242122
+mem_heap_B=503369339
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=12889789147
+mem_heap_B=704704155
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=detailed
+n6: 704704155 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 356515840 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 356515840 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 356515840 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 356515840 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 356515840 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 356515840 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 356515840 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 356515840 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 356515840 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 301989888 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 301989888 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 301989888 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 301989888 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 301989888 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 301989888 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 301989888 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 301989888 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 301989888 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n2: 11608064 0xD100D2F: ??? (in /usr/lib/libdrm_intel.so.1.0.0)
+  n1: 8388608 0xCC654C9: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 8388608 0xCA91776: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 8388608 0xCAC6B3B: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 8388608 0xCAC6E7F: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+      n1: 8388608 0xCC6FFEC: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+       n1: 8388608 0xCAB51B5: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+        n1: 8388608 0xCAB65FE: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+         n1: 8388608 0xCB7E8D3: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+          n1: 8388608 0xCB82F14: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+           n1: 8388608 0xCA3B511: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+            n1: 8388608 0x50D2713: ??? (in /usr/lib/primus/libGL.so.1)
+             n1: 8388608 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+              n0: 8388608 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+  n0: 3219456 in 3 places, all below massif's threshold (01.00%)
+ n0: 11077542 in 322 places, all below massif's threshold (01.00%)
+ n1: 8029925 0x8C969E7: ??? (in /usr/lib/nvidia/libGL.so.331.20)
+  n0: 5152053 in 123 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=17
+#-----------
+time=14822277204
+mem_heap_B=604032667
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=17244222660
+mem_heap_B=604032667
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=18870575219
+mem_heap_B=1140911771
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=18918810323
+mem_heap_B=1140911771
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1140911771 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 893386752 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 893386752 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 893386752 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 893386752 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n3: 893386752 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 536870912 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 536870912 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 536870912 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 536870912 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 356515840 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 356515840 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 356515840 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 356515840 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 2 places, all below massif's threshold (01.00%)
+ n1: 201326592 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 201326592 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 201326592 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 201326592 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 201326592 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 201326592 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 201326592 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 201326592 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 201326592 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 19107467 in 323 places, all below massif's threshold (01.00%)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+ n1: 11608064 0xD100D2F: ??? (in /usr/lib/libdrm_intel.so.1.0.0)
+  n0: 11608064 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=21
+#-----------
+time=19521042104
+mem_heap_B=1006694043
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=19730238982
+mem_heap_B=960548507
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=22152184438
+mem_heap_B=960548507
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=24574130994
+mem_heap_B=960548571
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=26996076450
+mem_heap_B=960548571
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=27473067119
+mem_heap_B=1363209947
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1363209947 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 713031680 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 713031680 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 713031680 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 713031680 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 713031680 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 713031680 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 713031680 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 713031680 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 713031680 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 603979776 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 603979776 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 603979776 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 603979776 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 603979776 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 603979776 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 603979776 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 603979776 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 603979776 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 30715595 in 324 places, all below massif's threshold (01.00%)
+ n1: 15482896 0xCB35051: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+  n1: 15482896 0xCC847F4: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+   n1: 15482896 0xCC2BDBD: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+    n1: 15482896 0xCC2BE93: ??? (in /usr/lib/xorg/modules/dri/i965_dri.so)
+     n1: 15482896 0xB96C445: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+      n1: 15482896 0xB946B71: ??? (in /usr/lib/mesa-libGL.so.1.2.0)
+       n1: 15482896 0xB946DE8: glXCreateNewContext (in /usr/lib/mesa-libGL.so.1.2.0)
+        n1: 15482896 0x50D1A24: ??? (in /usr/lib/primus/libGL.so.1)
+         n1: 15482896 0x6CCC0A0: start_thread (in /usr/lib/libpthread-2.18.so)
+          n0: 15482896 0x69FF3DB: clone (in /usr/lib/libc-2.18.so)
+#-----------
+snapshot=27
+#-----------
+time=29454198641
+mem_heap_B=1161875163
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=31876144097
+mem_heap_B=1161875163
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=34298089553
+mem_heap_B=1161875163
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=36720035009
+mem_heap_B=1161875163
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=38016222171
+mem_heap_B=2235625179
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=38112691771
+mem_heap_B=2235625179
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2235625179 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1786773504 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 1786773504 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 1786773504 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 1786773504 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n3: 1786773504 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 1073741824 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 1073741824 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 1073741824 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 1073741824 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 713031680 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 713031680 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 713031680 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 713031680 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 2 places, all below massif's threshold (01.00%)
+ n1: 402653184 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 402653184 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 402653184 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 402653184 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 402653184 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 402653184 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 402653184 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 402653184 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 402653184 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 46198491 in 325 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=33
+#-----------
+time=38962546618
+mem_heap_B=1967189723
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=39270106626
+mem_heap_B=1874906843
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=41692052082
+mem_heap_B=1874906843
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=44113999182
+mem_heap_B=1874906971
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=46535944639
+mem_heap_B=1874906971
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1874906971 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1426063360 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 1426063360 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 1426063360 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 1426063360 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 1426063360 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 1426063360 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 1426063360 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 1426063360 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 1426063360 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 402653184 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 402653184 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 402653184 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 402653184 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 402653184 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 402653184 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 402653184 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 402653184 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 402653184 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 46190427 in 325 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=38
+#-----------
+time=48957890095
+mem_heap_B=1874906971
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=51379835551
+mem_heap_B=1874906971
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=53801781007
+mem_heap_B=1874906971
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=56223726464
+mem_heap_B=1874906971
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=56639606059
+mem_heap_B=2680221531
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2680221531 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1426063360 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 1426063360 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 1426063360 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 1426063360 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 1426063360 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 1426063360 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 1426063360 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 1426063360 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 1426063360 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 1207959552 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 1207959552 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 1207959552 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 1207959552 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 1207959552 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 1207959552 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 1207959552 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 1207959552 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 1207959552 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 46198619 in 325 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=43
+#-----------
+time=58718024522
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=61139969978
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=63561915434
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=65983860891
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=68405806347
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=70827751803
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=73249697259
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=75671642716
+mem_heap_B=2277560155
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=76307499062
+mem_heap_B=4425051995
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=76500437654
+mem_heap_B=4425051995
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4425051995 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3573547008 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 3573547008 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 3573547008 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 3573547008 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n3: 3573547008 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 2147483648 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 2147483648 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 2147483648 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 2147483648 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 1426063360 0x40D4B4: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 1426063360 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 1426063360 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 1426063360 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 2 places, all below massif's threshold (01.00%)
+ n1: 805306368 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 805306368 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 805306368 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 805306368 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 805306368 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 805306368 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 805306368 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 805306368 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 805306368 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 46198619 in 325 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=53
+#-----------
+time=77845538661
+mem_heap_B=3888181083
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=77893773765
+mem_heap_B=3619745627
+mem_heap_extra_B=162621
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=78230053297
+mem_heap_B=3753963355
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=78326184922
+mem_heap_B=3720408923
+mem_heap_extra_B=166661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=80771782668
+mem_heap_B=3703623515
+mem_heap_extra_B=162613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=83193730857
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=85615676313
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=88037621769
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=90459567225
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=92881512682
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=detailed
+n3: 3703623771 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2852126720 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 2852126720 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 2852126720 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 2852126720 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 2852126720 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 2852126720 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 2852126720 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 2852126720 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 2852126720 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 805306368 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 805306368 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 805306368 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 805306368 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 805306368 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 805306368 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 805306368 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 805306368 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 805306368 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 46190683 in 325 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=63
+#-----------
+time=95303458138
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=97725403594
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=100147349050
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=102569294507
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=104991239963
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=107413185419
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=109835130875
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=112257076332
+mem_heap_B=3703623771
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=112670002277
+mem_heap_B=5314244699
+mem_heap_extra_B=166677
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=112814706398
+mem_heap_B=5314244699
+mem_heap_extra_B=166677
+mem_stacks_B=0
+heap_tree=peak
+n3: 5314244699 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2852126720 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 2852126720 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 2852126720 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 2852126720 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 2852126720 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 2852126720 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 2852126720 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 2852126720 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 2852126720 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 2415919104 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 2415919104 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 2415919104 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 2415919104 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 2415919104 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 2415919104 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 2415919104 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 2415919104 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 2415919104 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 46198875 in 325 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=73
+#-----------
+time=114823726138
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=117245671594
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=119667617050
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=122089562506
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=124511507962
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=126933453418
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=129355398875
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=131777344331
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=134199289787
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=136621235243
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4508930139 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2852126720 0x40EADE: __gnu_cxx::new_allocator<unsigned int>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 2852126720 0x40E73D: std::_Vector_base<unsigned int, std::allocator<unsigned int> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 2852126720 0x40E0C4: void std::vector<unsigned int, std::allocator<unsigned int> >::_M_emplace_back_aux<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 2852126720 0x40DB99: void std::vector<unsigned int, std::allocator<unsigned int> >::emplace_back<unsigned int>(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n2: 2852126720 0x40D98C: std::vector<unsigned int, std::allocator<unsigned int> >::push_back(unsigned int&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 2852126720 0x40D578: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 2852126720 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 2852126720 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 2852126720 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n0: 0 in 3 places, all below massif's threshold (01.00%)
+ n1: 1610612736 0x40E9BD: __gnu_cxx::new_allocator<VertexStruct>::allocate(unsigned long, void const*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+  n1: 1610612736 0x40E58F: std::_Vector_base<VertexStruct, std::allocator<VertexStruct> >::_M_allocate(unsigned long) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+   n1: 1610612736 0x40DE72: void std::vector<VertexStruct, std::allocator<VertexStruct> >::_M_emplace_back_aux<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+    n1: 1610612736 0x40DB09: void std::vector<VertexStruct, std::allocator<VertexStruct> >::emplace_back<VertexStruct>(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+     n1: 1610612736 0x40D94E: std::vector<VertexStruct, std::allocator<VertexStruct> >::push_back(VertexStruct&&) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+      n1: 1610612736 0x40D314: Globe::load_mapdata(std::string, int, int) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+       n1: 1610612736 0x40CDC7: Globe::load_data() (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+        n1: 1610612736 0x40CB55: Globe::Globe(std::string, GraphicsEngine*) (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+         n0: 1610612736 0x409B44: main (in /home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa)
+ n0: 46190683 in 325 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=83
+#-----------
+time=139043180700
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=141465126156
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=143887071612
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=146309017068
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=148730962525
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=151152907981
+mem_heap_B=4508930139
+mem_heap_extra_B=162629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=151886524490
+mem_heap_B=4508938115
+mem_heap_extra_B=162621
+mem_stacks_B=0
+heap_tree=empty

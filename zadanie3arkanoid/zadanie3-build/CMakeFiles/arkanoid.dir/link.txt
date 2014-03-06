@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/arkanoid.dir/main.cpp.o CMakeFiles/arkanoid.dir/shader.cpp.o CMakeFiles/arkanoid.dir/graphics_class.cpp.o CMakeFiles/arkanoid.dir/arkanoid_game.cpp.o  -o arkanoid  -Llibs -rdynamic -lGL -lglfw -lGLEW -Wl,-rpath,libs 

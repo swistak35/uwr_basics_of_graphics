@@ -1,0 +1,1 @@
+/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/CMakeFiles/zadanie5mapa.dir

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="zadanie5mapa" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zadanie5mapa">
+         <Option output="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLEW_STATIC" />
+            <Add directory="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../include/c++/4.8.2" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../include/c++/4.8.2/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../include/c++/4.8.2/x86_64-unknown-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 zadanie5mapa" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="zadanie5mapa/fast">
+         <Option output="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/zadanie5mapa" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLEW_STATIC" />
+            <Add directory="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../include/c++/4.8.2" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../include/c++/4.8.2/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../include/c++/4.8.2/x86_64-unknown-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include" />
+            <Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 zadanie5mapa/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/globe_class.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/graphics_class.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/main.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/observer_class.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/shader.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/utils.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/ColorFragmentShader.frag">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/VertexShader2D.vert">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/VertexShader3D.vert">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/globe_class.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/graphics_class.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/observer_class.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/shader.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/utils.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_courses/basics_of_graphics/zadanie5mapa/zadanie5mapa/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

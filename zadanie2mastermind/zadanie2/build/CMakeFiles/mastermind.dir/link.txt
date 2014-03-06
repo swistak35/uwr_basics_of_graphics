@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/mastermind.dir/main.cpp.o CMakeFiles/mastermind.dir/shader.cpp.o CMakeFiles/mastermind.dir/vertex_data.cpp.o  -o mastermind  -Llibs -rdynamic -lglut -lGL -lGLU -lX11 -lm -lglfw -lGLEW -Wl,-rpath,libs 

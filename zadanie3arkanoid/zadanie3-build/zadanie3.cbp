@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="zadanie3" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="arkanoid">
+         <Option output="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/arkanoid" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/." />
+            <Add directory="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/includes" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 arkanoid" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="arkanoid/fast">
+         <Option output="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/arkanoid" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/." />
+            <Add directory="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/includes" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 arkanoid/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/arkanoid_game.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/graphics_class.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/main.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/shader.cpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/arkanoid_game.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/graphics_class.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/shader.hpp">
+      </Unit>
+      <Unit filename="/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie3arkanoid/zadanie3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

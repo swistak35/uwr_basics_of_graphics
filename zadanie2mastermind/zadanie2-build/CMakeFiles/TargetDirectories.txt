@@ -1,0 +1,1 @@
+/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie2mastermind/zadanie2-build/CMakeFiles/mastermind.dir

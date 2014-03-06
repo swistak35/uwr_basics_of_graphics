@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie2mastermind/zadanie2/includes/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie2mastermind/zadanie2/shader.cpp
+stdio.h
+-
+string
+-
+vector
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+stdlib.h
+-
+string.h
+-
+GL/glew.h
+-
+shader.hpp
+/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie2mastermind/zadanie2/shader.hpp
+
+/home/swistak35/Projekty/uwr_basics_of_graphics/zadanie2mastermind/zadanie2/shader.hpp
+

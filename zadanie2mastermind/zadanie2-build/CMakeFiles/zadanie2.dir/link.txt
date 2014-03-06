@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/zadanie2.dir/shader.cpp.o CMakeFiles/zadanie2.dir/main.cpp.o  -o zadanie2 -rdynamic 
